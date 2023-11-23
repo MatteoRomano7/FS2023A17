@@ -1,0 +1,142 @@
+body {
+  background-color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.post-it-container {
+  position: relative;
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.post-it {
+  height: 300px;
+  width: 300px;
+  margin: 5rem;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px -30px 20px -5px rgba(100, 100, 100, 0.7);
+}
+
+.post-it h2 {
+  margin-top: 6rem;
+}
+
+.post-it:nth-child(1) {
+  transform: rotate(-5deg);
+  background-color: antiquewhite;
+  transition-property: height, width;
+  transition-duration: 1s, 1s;
+  flex-grow: 0;
+  flex-basis: 15%;
+}
+
+.post-it:nth-child(1):hover {
+  cursor: pointer;
+  transform: rotate(0);
+  transform: scale(1.5);
+}
+.post-it:nth-child(2) {
+  transform: rotate(8deg);
+  transition-property: height, width;
+  transition-duration: 1s, 1s;
+  background-color: lightgreen;
+  flex-grow: 0;
+  flex-basis: 15%;
+}
+
+.post-it:nth-child(2):hover {
+  cursor: pointer;
+  transform: rotate(0);
+  transform: scale(1.5);
+}
+
+.post-it:nth-child(3) {
+  transform: rotate(-12deg);
+  transition-property: height, width;
+  transition-duration: 1s, 1s;
+  background-color: darkorchid;
+  flex-grow: 0;
+  flex-basis: 15%;
+}
+
+.post-it:nth-child(3):hover {
+  cursor: pointer;
+  transform: rotate(0);
+  transform: scale(1.5);
+}
+
+.post-it:nth-child(4) {
+  transform: rotate(3deg);
+  transition-property: height, width;
+  transition-duration: 1s, 1s;
+  background-color: lightgreen;
+  flex-grow: 0;
+  flex-basis: 15%;
+}
+
+.post-it:nth-child(4):hover {
+  cursor: pointer;
+  transform: rotate(0);
+  transform: scale(1.5);
+}
+
+.post-it:nth-child(5) {
+  transform: rotate(-10deg);
+  background-color: antiquewhite;
+  transition-property: height, width;
+  transition-duration: 1s, 1s;
+  flex-grow: 0;
+  flex-basis: 15%;
+}
+.post-it:nth-child(5):hover {
+  cursor: pointer;
+  transform: rotate(0);
+  transform: scale(1.5);
+}
+
+.post-it:nth-child(6) {
+  transform: rotate(6deg);
+  transition-property: height, width;
+  transition-duration: 1s, 1s;
+  background-color: darkorchid;
+  flex-grow: 0;
+  flex-basis: 15%;
+}
+.post-it:nth-child(6):hover {
+  cursor: pointer;
+  transform: rotate(0);
+  transform: scale(1.5);
+}
+
+.post-it:nth-child(7) {
+  transform: rotate(-8deg);
+  transition-property: height, width;
+  transition-duration: 1s, 1s;
+  background-color: antiquewhite;
+  flex-grow: 0;
+  flex-basis: 15%;
+}
+.post-it:nth-child(7):hover {
+  cursor: pointer;
+  transform: rotate(0);
+  transform: scale(1.5);
+}
+
+.post-it:nth-child(8) {
+  transform: rotate(10deg);
+  transition-property: height, width;
+  transition-duration: 1s, 1s;
+  background-color: lightgreen;
+  flex-grow: 0;
+  flex-basis: 15%;
+}
+.post-it:nth-child(8):hover {
+  cursor: pointer;
+  transform: rotate(0);
+  transform: scale(1.5);
+}
